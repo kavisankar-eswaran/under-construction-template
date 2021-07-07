@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.error {
+    background-image: url('../images/404.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family:  cursive;
+    font-size: 25px;
+  }
+  
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+.cs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+hr {
+    margin: auto;
+    width: 40%;
+  }
+
+
+.button {
+    border-radius: 4px;
+    background-color: #23d432;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s; 
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 0.5;
+    right: 0;
+  }
