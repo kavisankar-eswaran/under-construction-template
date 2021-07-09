@@ -4,7 +4,7 @@ body, html {
   }
   
 .error {
-    background-image: url('../assets/images/404.jpg');
+    background-image: url('./images/404.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
